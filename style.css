@@ -3,8 +3,15 @@ body {
     color: #575353;
 }
 
+main {
+    background: url("https://static3.depositphotos.com/1007979/246/i/600/depositphotos_2462632-stock-photo-abstract-background.jpg");
+    background-size: cover;
+    padding: 30px 0;
+}
+
 ul {
     list-style-type: none;
+    padding-bottom: 20px;
 }
 
 a {
@@ -18,8 +25,9 @@ li {
 section {
     background: url("cv.jpg");
     background-size: cover;
-    margin: 20px 200px;
-    padding: 20px;
+    margin: 0 250px;
+    padding: 50px;
+    box-shadow: 0 0 8px black;
 }
 
 header {
@@ -43,7 +51,6 @@ h1 {
 h2 {
     font-size: 25px;
     text-transform: uppercase;
-    padding-bottom: 0;
     color: #2b2828;
 }
 
@@ -63,4 +70,24 @@ article {
 
 .wrapper-tasks {
     width: 65%;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 10px;
+    color: black;
+}
+
+footer img {
+    width: 30px;
+}
+
+#rs {
+    width: 50px;
+}
+
+.icon {
+    width: 20px;
+    padding-right: 20px;
 }
