@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    color: #575353;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    color: #2e1b1b
+}
+
+li {
+    padding: 5px;
+}
+
+section {
+    background: url("cv.jpg");
+    background-size: cover;
+    margin: 20px 200px;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+
+header img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+h1 {
+    font-size: 40px;
+    padding-bottom: 10px;
+    color: #2b2828;
+}
+
+h2 {
+    font-size: 25px;
+    text-transform: uppercase;
+    padding-bottom: 0;
+    color: #2b2828;
+}
+
+.text {
+    font-style: italic;
+}
+
+article {
+    display: flex;
+    width: 88%;
+    padding: 0 60px;
+}
+
+.wrapper-skills {
+    width: 35%;
+}
+
+.wrapper-tasks {
+    width: 65%;
+}
